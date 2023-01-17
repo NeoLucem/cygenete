@@ -3,7 +3,6 @@ import NavigationBar from '../components/navigationBar';
 import { storage, db} from '../firebaseConfig';
 import { listAll, ref, getDownloadURL} from 'firebase/storage';
 import {collection, getDocs} from "firebase/firestore"
-import { async } from '@firebase/util';
 import './home.css';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -276,55 +275,55 @@ function Home() {
       </div>
 
       {/* login sign up section */}
-      <div className="container-fluid">
-      <>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 1500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: false,
-        }}
-        navigation={false}
-        modules={[Autoplay]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <div className="container">
-            <h1>La surprise c'est notre quotidien</h1>
-            <span>Si, seulement 10% des ventes du jour<br/>
-              Rejoigner nous
-            </span>
-          </div>
-        </SwiperSlide>
+      <div className="container-fluid mb-5 logsection">
+        <>
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: false,
+            }}
+            navigation={false}
+            modules={[Autoplay]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="container">
+                <h1>La surprise c'est notre quotidien</h1>
+                <span>Si, seulement 10% des ventes du jour<br/>
+                  Rejoigner nous
+                </span>
+              </div>
+            </SwiperSlide>
 
-        
-        <SwiperSlide>
-          <div className="container">
-            <h1>La surprise c'est notre quotidien</h1>
-            <span>Si, seulement 10% des ventes du jour<br/>
-              Rejoigner nous
-            </span>
-          </div>
-        </SwiperSlide>
+            
+            <SwiperSlide>
+              <div className="container">
+                <h1>La surprise c'est notre quotidien</h1>
+                <span>Si, seulement 10% des ventes du jour<br/>
+                  Rejoigner nous
+                </span>
+              </div>
+            </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="container">
-            <h1>La surprise c'est notre quotidien</h1>
-            <span>Si, seulement 10% des ventes du jour<br/>
-              Rejoigner nous
-            </span>
-          </div>
-        </SwiperSlide>
+            <SwiperSlide>
+              <div className="container">
+                <h1>La surprise c'est notre quotidien</h1>
+                <span>Si, seulement 10% des ventes du jour<br/>
+                  Rejoigner nous
+                </span>
+              </div>
+            </SwiperSlide>
 
+            </Swiper>
+        </>
 
-      </Swiper>
-    </>
         <br/>
-        <div className="container btn-flex">
+        <div className="container btn-flex pb-5">
           <a href="https://www.google.com" className="btn btn-danger d-inline-block">S'inscrire</a>
           <a href="https://www.google.com" className="btn btn-danger d-inline-block">Se connecter</a>
         </div>

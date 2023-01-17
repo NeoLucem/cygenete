@@ -36,6 +36,13 @@
     }
 }
 
+.logsection{
+    background-image: url('../assets/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
  /* swiper css */
  .swiper {
     width: 100%;
@@ -45,7 +52,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    /* background: #fff; */
   
     /* Center slide text vertically */
     display: -webkit-box;
