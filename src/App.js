@@ -11,7 +11,7 @@ function App() {
     <div className='app-header'>
       {/* <NavigationBar/> */}
       <Routes>
-        <Route path='' element={<Home/>}/>
+        <Route path='cygenete/' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
