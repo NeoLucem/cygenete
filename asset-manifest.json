@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/cygenete/static/css/main.ae1afc33.css",
-    "main.js": "/cygenete/static/js/main.8539c16b.js",
+    "main.css": "/cygenete/static/css/main.186b89f4.css",
+    "main.js": "/cygenete/static/js/main.a921b27a.js",
     "static/js/787.40e01b4e.chunk.js": "/cygenete/static/js/787.40e01b4e.chunk.js",
+    "static/media/image4.jpg": "/cygenete/static/media/image4.0aca02b736a02cd5a3b2.jpg",
     "static/media/image.jpg": "/cygenete/static/media/image.13a2c98c098163dca231.jpg",
+    "static/media/cynegetelogo3.png": "/cygenete/static/media/cynegetelogo3.c145211f5c72115ca20e.png",
     "index.html": "/cygenete/index.html",
-    "main.ae1afc33.css.map": "/cygenete/static/css/main.ae1afc33.css.map",
-    "main.8539c16b.js.map": "/cygenete/static/js/main.8539c16b.js.map",
+    "main.186b89f4.css.map": "/cygenete/static/css/main.186b89f4.css.map",
+    "main.a921b27a.js.map": "/cygenete/static/js/main.a921b27a.js.map",
     "787.40e01b4e.chunk.js.map": "/cygenete/static/js/787.40e01b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae1afc33.css",
-    "static/js/main.8539c16b.js"
+    "static/css/main.186b89f4.css",
+    "static/js/main.a921b27a.js"
   ]
 }
