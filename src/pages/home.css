@@ -37,10 +37,11 @@
 }
 
 .logsection{
-    background-image: url('../assets/image.jpg');
+    /* background-image: url('../assets/image.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #fff;
 }
 
  /* swiper css */

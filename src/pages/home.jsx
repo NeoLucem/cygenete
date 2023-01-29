@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-import NavigationBar from '../components/navigationBar';
 import { storage, db} from '../firebaseConfig';
 import { listAll, ref, getDownloadURL} from 'firebase/storage';
 import {collection, getDocs} from "firebase/firestore"
@@ -14,6 +13,7 @@ import 'swiper/css';
 
 // import required modules
 import { Autoplay } from "swiper";
+import Header from '../components/header';
 
 
 
@@ -78,20 +78,10 @@ function Home() {
 
   return (
     <>
-      <NavigationBar/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      
+      <Header/>
       <div className='container '>
         <div className="container">
-          <h2 className='d-block text-center'>NOUVEAUTES DU JOUR</h2>
+          <h2 className='d-block text-center' style={{marginTop: '6rem'}}>NOUVEAUTES DU JOUR</h2>
           <h5 className='d-block text-center'>Les ventes qui ouvrent aujourd'hui.</h5>
         </div>
         <div className='row gy-5 mt-5'>
@@ -275,7 +265,7 @@ function Home() {
       </div>
 
       {/* login sign up section */}
-      <div className="container-fluid mb-5 logsection">
+      <div className="container-fluid mb-5">
         <>
           <Swiper
             spaceBetween={30}

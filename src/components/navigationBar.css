@@ -1,4 +1,7 @@
 /**/
+.navbar{
+    background-color: rgba(0,111,29,255);
+}
 .menu{
     border-top: 2px solid #000;
     background-color: #fff;
@@ -17,4 +20,29 @@
     border-bottom: #000 solid 6px;
 }
 
+.bottom-navbar{
+    border-top: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+    background-color: rgba(0,111,29,255);
+}
+
+.bottom-navbar a{
+    padding: 0.7em;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5ms;
+    overflow: auto;
+}
+
+.bottom-navbar a:active{
+    padding: 0.7em;
+    text-decoration: underline;
+    color: #000;
+}
+
+.bottom-navbar a:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
 
