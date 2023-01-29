@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cygenete/static/css/main.186b89f4.css",
-    "main.js": "/cygenete/static/js/main.a921b27a.js",
+    "main.js": "/cygenete/static/js/main.9d6abd8b.js",
     "static/js/787.40e01b4e.chunk.js": "/cygenete/static/js/787.40e01b4e.chunk.js",
     "static/media/image4.jpg": "/cygenete/static/media/image4.0aca02b736a02cd5a3b2.jpg",
     "static/media/image.jpg": "/cygenete/static/media/image.13a2c98c098163dca231.jpg",
     "static/media/cynegetelogo3.png": "/cygenete/static/media/cynegetelogo3.c145211f5c72115ca20e.png",
     "index.html": "/cygenete/index.html",
     "main.186b89f4.css.map": "/cygenete/static/css/main.186b89f4.css.map",
-    "main.a921b27a.js.map": "/cygenete/static/js/main.a921b27a.js.map",
+    "main.9d6abd8b.js.map": "/cygenete/static/js/main.9d6abd8b.js.map",
     "787.40e01b4e.chunk.js.map": "/cygenete/static/js/787.40e01b4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.186b89f4.css",
-    "static/js/main.a921b27a.js"
+    "static/js/main.9d6abd8b.js"
   ]
 }
