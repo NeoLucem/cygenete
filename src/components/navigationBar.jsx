@@ -35,12 +35,12 @@ function NavigationBar() {
                 
             </nav>
             <div className="container-fluid bottom-navbar d-flex justify-content-around" style={{fontSize: '24px'}}>
-                <Link to='/cynegete'>Acceuil</Link>
-                <Link to='/cynegete/e-boutique'>E-Boutique</Link>
-                <Link to='/cynegete/mode'>Mode</Link>
-                <Link to='/cynegete/cuisine'>Cuisine</Link>
-                <Link to='/cynegete/electronique'>Electronique</Link>
-                <Link to='/cynegete/maison'>Maison</Link>
+                <Link to='/cygenete'>Acceuil</Link>
+                <Link to='/cygenete/e-boutique'>E-Boutique</Link>
+                <Link to='/cygenete/mode'>Mode</Link>
+                <Link to='/cygenete/cuisine'>Cuisine</Link>
+                <Link to='/cygenete/electronique'>Electronique</Link>
+                <Link to='/cygenete/maison'>Maison</Link>
             </div>
         </>
   )

@@ -17,14 +17,14 @@ function App() {
     <div className='app-header'>
       {/* <NavigationBar/> */}
       <Routes>
-        <Route path='cynegete/' element={<Home/>}/>
-        <Route path='cynegete/cart' element={<Cart/>}/>
-        <Route path='cynegete/header' element={<Header/>}/>
-        <Route path='cynegete/e-boutique' element={<Eboutique/>}/>
-        <Route path='cynegete/mode' element={<Mode/>}/>
-        <Route path='cynegete/cuisine' element={<Cuisine/>}/>
-        <Route path='cynegete/electronique' element={<Electronique/>}/>
-        <Route path='cynegete/maion' element={<Maison/>}/>
+        <Route path='cygenete/' element={<Home/>}/>
+        <Route path='cygenete/cart' element={<Cart/>}/>
+        <Route path='cygenete/header' element={<Header/>}/>
+        <Route path='cygenete/e-boutique' element={<Eboutique/>}/>
+        <Route path='cygenete/mode' element={<Mode/>}/>
+        <Route path='cygenete/cuisine' element={<Cuisine/>}/>
+        <Route path='cygenete/electronique' element={<Electronique/>}/>
+        <Route path='cygenete/maion' element={<Maison/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
     </div>
