@@ -79,194 +79,133 @@ function Home() {
   return (
     <>
       <Header/>
-      <div className='container '>
-        <div className="container">
-          <h2 className='d-block text-center' style={{marginTop: '6rem'}}>NOUVEAUTES DU JOUR</h2>
-          <h5 className='d-block text-center'>Les ventes qui ouvrent aujourd'hui.</h5>
-        </div>
-        <div className='row gy-5 mt-5'>
-          {/* {imageList.map((url)=>{
-            return <div className='col-lg-6'>
-                      <div className="container d-block">
-                        <img src={url} alt='' style={{ height: '182px'}}/>
-                        <span className='d-block p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                          <a href='' className='text-decoration-none'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                          </a>
-                        </span>
-                    </div>
-          </div>
-          })} */}
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
+      
+      {/* main */}
+      <main className='main'>
 
+        {/* Titre nouveautes du jour */}
+        <div className="container text-center" style={{marginBottom: '8rem'}}>
+          <h1 style={{paddingTop: '8rem'}}>NOUVEAUTES DU JOUR</h1>
+          <span className='span-style'>Les ventes qui ouvrent aujourd'hui</span>
         </div>
-      </div>
 
-      {/* Plus belles marques */}
-      <div className='container' style={{marginTop: '12rem', marginBottom: '6rem'}}>
-        <div className="container">
-          <h2 className='d-block text-center'>NOUVEAUTES DU JOUR</h2>
-          <h5 className='d-block text-center'>Les ventes qui ouvrent aujourd'hui.</h5>
+        {/* First container */}
+        <div class="container text-center" style={{padding: 0}}>
+          <div class="row g-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='row gy-5 mt-5'>
-          {/* {imageList.map((url)=>{
-            return <div className='col-lg-6'>
-                      <div className="container d-block">
-                        <img src={url} alt='' style={{ height: '182px'}}/>
-                        <span className='d-block p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                          <a href='' className='text-decoration-none'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                          </a>
-                        </span>
-                    </div>
-          </div>
-          })} */}
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
-          
-          
-          <div className='col-lg-6'>
-            <div className="container container_card">
-              <img className='img' src='https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f' alt='' style={{ height: '182px'}}/>
-              <span className='d-block span p-2 bg-black text-light'style={{ cursor: 'pointer'}}>
-                <a href='https://www.google.com' className='text-decoration-none'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, debitis? Facere, maiores.
-                </a>
-              </span>
-            </div>
-          </div>
 
+        {/* Titre numero deux __________ */}
+        <div className="container text-center" style={{marginBottom: '8rem'}}>
+          <h1 style={{marginTop: '8rem'}}>PLUS BELLES MARQUES</h1>
+          <span className='span-style'>Les ventes qui ouvrent aujourd'hui</span>
         </div>
-      </div>
 
-      {/* login sign up section */}
-      <div className="container-fluid mb-5">
-        <>
+        {/* Second container */}
+        <div class="container text-center" style={{padding: 0}}>
+          <div class="row g-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: 'auto'}}>
+                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Login et sign up section */}
+        <div className="container-fluid login-signup_section" style={{marginTop: '8rem'}}>
+          <div className="container">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -280,11 +219,12 @@ function Home() {
             navigation={false}
             modules={[Autoplay]}
             className="mySwiper"
+            style={{padding: '3rem'}}
           >
             <SwiperSlide>
               <div className="container">
                 <h1>La surprise c'est notre quotidien</h1>
-                <span>Si, seulement 10% des ventes du jour<br/>
+                <span className='span-style'>Si, seulement 10% des ventes du jour<br/>
                   Rejoigner nous
                 </span>
               </div>
@@ -294,7 +234,7 @@ function Home() {
             <SwiperSlide>
               <div className="container">
                 <h1>La surprise c'est notre quotidien</h1>
-                <span>Si, seulement 10% des ventes du jour<br/>
+                <span className='span-style'>Si, seulement 10% des ventes du jour<br/>
                   Rejoigner nous
                 </span>
               </div>
@@ -303,21 +243,19 @@ function Home() {
             <SwiperSlide>
               <div className="container">
                 <h1>La surprise c'est notre quotidien</h1>
-                <span>Si, seulement 10% des ventes du jour<br/>
+                <span className='span-style'>Si, seulement 10% des ventes du jour<br/>
                   Rejoigner nous
                 </span>
               </div>
             </SwiperSlide>
-
             </Swiper>
-        </>
-
-        <br/>
-        <div className="container btn-flex pb-5">
-          <a href="https://www.google.com" className="btn btn-danger d-inline-block">S'inscrire</a>
-          <a href="https://www.google.com" className="btn btn-danger d-inline-block">Se connecter</a>
+          </div>
+          <div className="container btn-flex pb-5">
+            <a href="https://www.google.com" className="btn btn-outline-light btn-lg d-inline-block">S'inscrire</a>
+            <a href="https://www.google.com" className="btn btn-outline-light btn-lg d-inline-block">Se connecter</a>
+          </div>
         </div>
-      </div>
+      </main>
     </>
   )
 }

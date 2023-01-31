@@ -26,7 +26,7 @@ function NavigationBar() {
                     <div className="container">
                         <div className='navbar-search d-flex justify-content-center'>
                             <input type='text' placeholder='Rechercher un produit, une maque'value={searchInput} onChange={(e)=>setSearch(e.target.value)}/>
-                            <div className='btn btn-dark ms-2' onClick={getSearch}>
+                            <div className='btn btn-dark ms-2 btn-search' onClick={getSearch}>
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </div>
                         </div>

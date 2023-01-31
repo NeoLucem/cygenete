@@ -1,15 +1,15 @@
 import React from 'react';
 import NavigationBar from './navigationBar';
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay } from "swiper";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import swiper style from header.css
 import './header.css'
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
 
 
 function Header() {
@@ -24,11 +24,7 @@ function Header() {
                 delay: 4500,
                 disableOnInteraction: false,
                 }}
-                pagination={{
-                clickable: true,
-                }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                modules={[Autoplay]}
                 className="mySwiper"
             >
                 <SwiperSlide>
@@ -39,7 +35,8 @@ function Header() {
                                     et d'exposition numerique.
                             </h4>
                             <br/>
-                            <span style={{lineheight: '2'}}>
+                            <br/>
+                            <span style={{lineheight: '2', fontSize: '32px'}}>
                                 Faites vos placements de produits ou d'idee sur notre
                                 site internet et sur nos reseaux sociaux Gratuitement 
                                 pour les premiers mois dde lancement.
@@ -51,37 +48,32 @@ function Header() {
                     <div className='container slider-card'>
                         <p>
                             <h4>2023</h4>
-                            <span>Cynegete est votre plateforme d'affiliation, et d'exposition numerique de vos annonces les plus importantes.</span>
+                            <span style={{lineheight: '2', fontSize: '32px'}}>Cynegete est votre plateforme d'affiliation, et d'exposition numerique de vos annonces les plus importantes.</span>
                         </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='container slider-card'>
                         <p style={{display: 'inline-block'}}>
-                        <h4 style={{display: 'inline-block'}}>CYNEGETE est votre plateforme d'affiliation et d'exposition numerique.</h4><br/>
-                        Faites vos placements de produits ou d'idee sur notre site internet et sur nos reseaux sociaux Gratuitement pour les premiers mois dde lancement.</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='container slider-card'>
-                        <p>
-                            <h4>2023</h4>
-                            Cynegete est votre plateforme d'affiliation, et d'exposition numerique de vos annonces les plus importantes.
+                            <h4 style={{display: 'inline-block'}}>
+                                CYNEGETE est votre plateforme d'affiliation
+                                    et d'exposition numerique.
+                            </h4>
+                            <br/>
+                            <br/>
+                            <span style={{lineheight: '2', fontSize: '32px'}}>
+                                Faites vos placements de produits ou d'idee sur notre
+                                site internet et sur nos reseaux sociaux Gratuitement 
+                                pour les premiers mois dde lancement.
+                            </span>
                         </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='container slider-card'>
-                        <p style={{display: 'inline-block'}}>
-                        <h4 style={{display: 'inline-block'}}>CYNEGETE est votre plateforme d'affiliation et d'exposition numerique.</h4><br/>
-                        Faites vos placements de produits ou d'idee sur notre site internet et sur nos reseaux sociaux Gratuitement pour les premiers mois dde lancement.</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='container slider-card'>
                         <p>
                             <h4>2023</h4>
-                            Cynegete est votre plateforme d'affiliation, et d'exposition numerique de vos annonces les plus importantes.
+                            <span style={{lineheight: '2', fontSize: '32px'}}>Cynegete est votre plateforme d'affiliation, et d'exposition numerique de vos annonces les plus importantes.</span>
                         </p>
                     </div>
                 </SwiperSlide>

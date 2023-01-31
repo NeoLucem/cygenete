@@ -1,3 +1,15 @@
+h1{
+    font-size: 42px;
+    font-family: "VP Next", arial, sans-serif;
+}
+.span-style{
+    font-size: 18px;
+    font-family: "VP Next", arial, sans-serif;
+}
+.main{
+    background-color: rgb(212, 206, 206);
+}
+
 .container_card{
     display: flex;
     flex-direction: column;
@@ -77,3 +89,25 @@
     object-fit: cover;
   }
   
+  .card-container{
+     display: flex;
+     justify-content: center;   
+  }
+
+  .card-body{
+    text-align: justify;
+  }
+
+  .login-signup_section{
+    background-color: rgba(0,111,29,255);
+    color: #fff;
+  }
+
+  @media screen and (min-width: 992px) {
+    
+    .img-card{
+        /* width: 100vw; */
+        height: 16vw;
+        object-fit: cover;
+    }
+  }
