@@ -10,38 +10,49 @@ function NavigationBar() {
     const getSearch = () =>{
         console.log(searchInput)
     }
+
+    const navBarMenu = document.getElementById('navbar-menu');
+    const smallContainer = document.getElementsByClassName('navBarMenu')
+
+    const removeDisplay = () =>{
+        console.log('helo');
+        navBarMenu.style.visibility='hidden'
+    }
   return (
         <>
-            {/* nouvelle  navbar  */}
-            <nav className="navbar navbar-expand-lg">
-                <div className="container py-3">
-                    <div className="container">
-                        <i class="fa-sharp fa-solid fa-bars fa-2x" style={{cursor: 'pointer', color: 'white'}}></i>
-                    </div>
-                    <div className="container text-center">
-                        <Link to='/cynegete' className='text-decoration-none text-center'>
-                            <img src={logo} alt='logo' style={{width:'64px', height: '64px'}}/>
-                        </Link>
-                    </div>
-                    <div className="container">
-                        <div className='navbar-search d-flex justify-content-center'>
-                            <input type='text' placeholder='Rechercher un produit, une maque'value={searchInput} onChange={(e)=>setSearch(e.target.value)}/>
-                            <div className='btn btn-dark ms-2 btn-search' onClick={getSearch}>
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>        
-                
-            </nav>
-            <div className="container-fluid bottom-navbar d-flex justify-content-around" style={{fontSize: '24px'}}>
-                <Link to='/cygenete'>Acceuil</Link>
-                <Link to='/cygenete/e-boutique'>E-Boutique</Link>
-                <Link to='/cygenete/mode'>Mode</Link>
-                <Link to='/cygenete/cuisine'>Cuisine</Link>
-                <Link to='/cygenete/electronique'>Electronique</Link>
-                <Link to='/cygenete/maison'>Maison</Link>
+        <div className="container-fluid d-flex barre-de-navigation">
+          <div className="container d-flex align-items-center">
+            <Link to='/cygenete' className='text-decoration-none text-center'>
+              <h1 className='logo-name mb-0'>CYNEGETE</h1>
+            </Link>
+            {/* <Link to='/cygenete' className='text-decoration-none text-center ms-2'>
+                <img src={logo} alt='logo' style={{width:'64px', height: '64px'}}/>
+            </Link> */}
+          </div>
+
+          <div className="container d-flex align-items-center justify-content-center">
+            <input type='text' className='research-input' placeholder='Recherchez votre article '/>
+            <div className="container navBtn research-btn ms-2">
+              <a href="http://">Rechercher</a>
             </div>
+            <div className="container navBtn ms-2">
+              <a cla href="http://">Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="container-fluid d-flex justify-content-center mt-5">
+          <li className='' style={{listStyle: 'none'}}><Link to='/cygenete' className='navs'>ACCEUIL</Link></li>
+          <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/e-boutique' className='navs'>E-BOUTIQUE</Link></li>
+          <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/mode' className='navs'>MODE</Link></li>
+          <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/cuisine' className='navs'>CUISINE</Link></li>
+          <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/electronique' className='navs'>ELECTRONIQUE</Link></li>
+          <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/maison' className='navs'>MAISON</Link></li>
+        </div>
+            
+
+
+
         </>
   )
 }

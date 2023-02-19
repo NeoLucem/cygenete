@@ -1,0 +1,11 @@
+.navBtn{
+    color: #fff;
+    width: fit-content;
+    cursor: pointer;
+    padding: 1vh;
+    margin: 0;
+}
+
+@media  screen and  (max-width: 480px){
+    
+}
