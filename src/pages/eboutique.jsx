@@ -5,6 +5,7 @@ function Eboutique() {
   return (
     <>
         <NavigationBar/>
+        <h1>E boutique</h1>
     </>
   )
 }

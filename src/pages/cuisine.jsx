@@ -5,6 +5,7 @@ function Cuisine() {
   return (
     <>
         <NavigationBar/>
+        <h1>Cuisine</h1>
     </>
   )
 }

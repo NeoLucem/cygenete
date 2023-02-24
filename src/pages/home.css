@@ -103,6 +103,15 @@ h1{
     color: #fff;
   }
 
+  .amazon .amzn-ad-container {
+    border-top: 2px solid #f90;
+    width: auto;
+}
+
+#myIframe{
+    width: 100%;
+}
+
   @media screen and (min-width: 992px) {
     
     .img-card{

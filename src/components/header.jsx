@@ -13,9 +13,30 @@ import "swiper/css";
 
 
 function Header() {
+
+    // const header = document.querySelector('.nav-header');
+    // const sectionOne = document.querySelector('.hero-section');
+
+    // const sectionOneOptions = {
+    //     rootMargin: '-200px 0px 0px 0px'
+    // };
+
+    // const sectionOneObserver = new IntersectionObserver(
+    //     function(entries, sectionOneObserver){
+    //         entries.forEach(enttry=>{
+    //             if(!enttry.isIntersecting){
+    //                 header.classList.add('')
+    //             }else{
+    //                 header.classList.remove('')
+    //             }
+    //         })
+    //     }, sectionOneOptions);
+
+    //     sectionOneObserver.observe(sectionOne);
+
   return (
     <div className='header'>
-        <NavigationBar/>
+        <NavigationBar className='nav-header'/>
         <div className='hero-section'>
         <Swiper
                 spaceBetween={30}
@@ -30,13 +51,11 @@ function Header() {
                 <SwiperSlide>
                     <div className='container slider-card'>
                         <p style={{display: 'inline-block'}}>
-                            <h1 style={{display: 'inline-block', fontSize: '32px'}}>
-                                CYNEGETE est votre plateforme d'affiliation
+                            <h1 style={{display: 'inline-block', fontSize: '48px'}}>
+                                Cynegete est votre plateforme d'affiliation
                                     et d'exposition numerique.
                             </h1>
-                            <br/>
-                            <br/>
-                            <span style={{lineheight: '2', fontSize: '16px'}}>
+                            <span style={{lineheight: '2', fontSize: '24px'}}>
                                 Faites vos placements de produits ou d'idée sur notre
                                 site internet et sur nos réseaux sociaux Gratuitement 
                                 pour les premiers mois de lancement.
@@ -47,7 +66,7 @@ function Header() {
                 <SwiperSlide>
                     <div className='container slider-card'>
                         <p>
-                            <h1 style={{fontSize: '32px'}}>En 2023,</h1>
+                            <h1 style={{fontSize: '48px'}}>En 2023,</h1>
                             <span style={{lineheight: '2', fontSize: '32px'}}>Cynegete est votre plateforme d'affiliation, et d'exposition numerique de vos annonces les plus importantes.</span>
                         </p>
                     </div>
@@ -55,13 +74,11 @@ function Header() {
                 <SwiperSlide>
                     <div className='container slider-card'>
                         <p style={{display: 'inline-block'}}>
-                            <h1 style={{display: 'inline-block', fontSize: '32px'}}>
+                            <h1 style={{display: 'inline-block', fontSize: '48px'}}>
                                 CYNEGETE est votre plateforme d'affiliation
                                     et d'exposition numerique.
                             </h1>
-                            <br/>
-                            <br/>
-                            <span style={{lineheight: '2', fontSize: '16px'}}>
+                            <span style={{lineheight: '2', fontSize: '24px'}}>
                                 Faites vos placements de produits ou d'idée sur notre
                                 site internet et sur nos réseaux sociaux Gratuitement 
                                 pour les premiers mois de lancement.
@@ -72,8 +89,8 @@ function Header() {
                 <SwiperSlide>
                     <div className='container slider-card'>
                         <p>
-                            <h1 >2023</h1>
-                            <span style={{lineheight: '2', fontSize: '32px'}}>Cynegete est votre plateforme d'affiliation, et d'exposition numérique de vos annonces les plus importantes.</span>
+                            <h1 style={{fontSize: '48px'}}>2023</h1>
+                            <span style={{lineheight: '2', fontSize: '24px'}}>Cynegete est votre plateforme d'affiliation, et d'exposition numérique de vos annonces les plus importantes.</span>
                         </p>
                     </div>
                 </SwiperSlide>

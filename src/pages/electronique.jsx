@@ -5,6 +5,7 @@ function Electronique() {
   return (
     <>
         <NavigationBar/>
+        <h1>Electronique</h1>
     </>
   )
 }

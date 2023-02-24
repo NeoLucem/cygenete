@@ -1,0 +1,36 @@
+.left-p{
+    width: 100;
+    background-color: linear-gradient(90deg, rgba(66, 156, 93, 0));
+}
+
+.barre-de-navigation{
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 1);
+}
+
+.input{
+    padding: 10px 23px;
+    outline: none;
+    border-radius: 50px;
+    outline: none;
+    border: solid black 1px;
+}
+
+
+
+/* @media screen and (min-width: '1024px') {
+    .form-right{
+        margin-left:6rem;
+    }
+} */
+
+@media screen and (max-width: '490px') {
+    .form-right{
+        margin-left:0;
+    }
+}
+
+
+
+
+
