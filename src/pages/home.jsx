@@ -16,9 +16,10 @@ import 'swiper/css';
 import { Autoplay } from "swiper";
 import Header from '../components/header';
 //import iframe resizer
-import IframeResizer from 'iframe-resizer-react';
-
-
+// import IframeResizer from 'iframe-resizer-react';
+import pic from '../assets/product.jpg';
+import durex from '../assets/durex.jpg';
+import iphone from '../assets/iphone.jpg';
 
 
 function Home() {
@@ -76,11 +77,11 @@ function Home() {
   
 
   //edit iframe 
-  const myIframe = document.querySelector('#myIframe');
-  console.log(myIframe);
+  
 
-  // const iframeWindow = myIframe.querySelector("#document");
-  // const iframeDocument = iframeWindow.querySelector('a');
+
+
+
   
   return (
     <>
@@ -100,52 +101,68 @@ function Home() {
           <div class="row g-5">
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                <div class="card" style={{width: '430px'}}>
+                  <img src={durex} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                      Durex Air Ultra Thin Condoms - 10s
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+            
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                <div class="card" style={{width: '430px'}}>
+                  <img src={iphone} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                      Coque liberty wiltshire porcelaine pour iPhone 14,13, 12, 11, X, XS, X max,XR, SE, 8, 7, 7+
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/85mEWbb" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+            
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                <div class="card" style={{width: '430px'}}>
+                  <img src={pic} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+            
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                <div class="card" style={{width: '430px'}}>
+                  <img src={pic} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
 
@@ -157,62 +174,85 @@ function Home() {
 
         {/* Second container */}
         <div class="container text-center" style={{padding: 0}}>
-        <IframeResizer
-  log
-  src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=FR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=arteindaffili-21&language=fr_FR&marketplace=amazon&region=FR&placement=B075L6TBZ5&asins=B075L6TBZ5&linkId=d713fd441f142a6cefc2ccd0fba28e08&show_border=true&link_opens_in_new_window=true"
-  style={{ width: '630px', height: '240px'}}
-/>
+        
           <div class="row g-5">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            {/* <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
                 <div class="card" style={{width: 'auto'}}>
-                <iframe id='myIframe' sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"  marginwidth="0" marginheight="0"  frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=FR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=arteindaffili-21&language=fr_FR&marketplace=amazon&region=FR&placement=B075L6TBZ5&asins=B075L6TBZ5&linkId=d713fd441f142a6cefc2ccd0fba28e08&show_border=true&link_opens_in_new_window=true" title='hello'></iframe>
-                
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                  <IframeResizer
+                    log
+                    src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=FR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=arteindaffili-21&language=fr_FR&marketplace=amazon&region=FR&placement=B075L6TBZ5&asins=B075L6TBZ5&linkId=d713fd441f142a6cefc2ccd0fba28e08&show_border=true&link_opens_in_new_window=true"
+                    style={{ width: '100%', height: '240px'}}
+                    id='iframe'
+                  />
+                </div>
+              </div>
+            </div> */}
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div className="container card-container">
+                <div class="card" style={{width: '430px'}}>
+                  <img src={pic} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+           
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                <div class="card" style={{width: '430px'}}>
+                  <img src={pic} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+           
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                <div class="card" style={{width: '430px'}}>
+                  <img src={pic} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+                       
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/cygenete.appspot.com/o/test%2F6.png?alt=media&token=6a44177f-f415-45f9-abb1-0ce7fdd1856f" class=" img-card" alt="description"/>
+                <div class="card" style={{width: '430px'}}>
+                  <img src={pic} class=" img-card" alt="description"/>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="www.google.com" class="btn btn-success">Go somewhere</a>
+                    <h5 class="card-title">Marque : Lemef</h5>
+                    <p class="card-text">
+                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
+                    </p>
+                    <p>25$</p>
+                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
                   </div>
                 </div>
               </div>
             </div>
+           
+            
           </div>
         </div>
 
