@@ -305,7 +305,7 @@ function Home() {
           </div>
           <div className="container btn-flex pb-5">
             <Link  to='/cygenete/sign-in' className="btn btn-outline-light btn-lg d-inline-block"> S'inscrire</Link>
-            <Link  to='/cygenete/sign-in' className="btn btn-outline-light btn-lg d-inline-block"> Se connecter</Link>
+            <Link  to='/cygenete/log-in' className="btn btn-outline-light btn-lg d-inline-block"> Se connecter</Link>
           </div>
         </div>
       </main>

@@ -11,6 +11,7 @@ import Cuisine from './pages//cuisine';
 import Electronique from './pages/electronique';
 import Maison from './pages/maison';
 import Signin from './pages/signin';
+import Login from './pages/login';
 //import NavigationBar from './components/navigationBar';
 
 function App() {
@@ -27,9 +28,9 @@ function App() {
         <Route path='cygenete/electronique' element={<Electronique/>}/>
         <Route path='cygenete/maion' element={<Maison/>}/>
         <Route path='cygenete/sign-in' element={<Signin/>}/>
+        <Route path='cygenete/log-in' element={<Login/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
-      vv
     </div>
   );
 }

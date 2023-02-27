@@ -21,7 +21,7 @@ function Signin() {
             <div className="container d-flex align-items-center justify-content-center second-barre-de-navigation">
                 {/* <input type='text' className='research-input' placeholder='Recherchez votre article ' /> */}
                 <div className="container ms-2">
-                <Link to='/cygenete/sign-in' className='navBtn1'>Signin</Link>
+                <Link to='/cygenete/log-in' className='navBtn1'>Login</Link>
                 </div>
                 {/* <div className="container navBtn ms-2">
                 <Link to="/cygenete/sign-in">S'inscrire</Link>
