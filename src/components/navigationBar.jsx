@@ -3,7 +3,7 @@ import './navigationBar.css';
 import { Link } from 'react-router-dom';
 //import logo from '../assets/cynegetelogo3.png'
 import cynegeteTitle from '../assets/cynegete-title.jpeg';
-
+import cygenetelogo from '../assets/cygenetelogo0.png'
 function NavigationBar() {
 
     const [searchInput, setSearch] = useState('');
@@ -25,7 +25,8 @@ function NavigationBar() {
             <div className="container-fluid d-flex barre-de-navigation">
                 <div className="container d-flex align-items-center">
                     <Link to='/cygenete' className='text-decoration-none text-center'>
-                    <h1 className='logo-name mb-0'>CYNEGETE</h1>
+                    {/* <h1 className='logo-name mb-0'>CYNEGETE</h1> */}
+                    <img className='title-logo' src={cygenetelogo} alt="title" style={{width: '260px', height: '60px', objectFit: 'cover'}} srcset="" />
                         {/* <img src={cynegeteTitle} width={50} alt='title'/> */}
                     </Link>
                     {/* <Link to='/cygenete' className='text-decoration-none text-center ms-2'>

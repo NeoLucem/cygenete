@@ -9,3 +9,11 @@
     border-radius: 20px;
     border: solid 1px black;
 }
+
+.title-logo{
+    width: 260px;
+    object-fit: cover;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}

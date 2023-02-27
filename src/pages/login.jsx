@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import googleLogo from '../assets/google.png';
 import facebookLogo from '../assets/facebook.png';
-import './login.css'
+import './login.css';
+import cygenetelogo from '../assets/cygenetelogo0.png';
+
 
 function Login() {
   return (
@@ -10,7 +12,9 @@ function Login() {
         <div className="container-fluid d-flex py-2 justify-content-between" id='barre-de-navigation'>
             <div className="container d-flex align-items-center">
                 <Link to='/cygenete' className='text-decoration-none text-center'>
-                <h1 className='logo-name mb-0'>CYNEGETE</h1>
+                {/* <h1 className='logo-name mb-0'>CYNEGETE</h1> */}
+                <img className='title-logo' src={cygenetelogo} alt="title" style={{width: '260px', height: '60px', objectFit: 'cover'}} srcset="" />
+
                 </Link>
                 {/* <Link to='/cygenete' className='text-decoration-none text-center ms-2'>
                     <img src={logo} alt='logo' style={{width:'64px', height: '64px'}}/>

@@ -9,6 +9,14 @@
     transition: all 0.3s ease-in-out;
 }
 
+.title-logo{
+    width: 260px;
+    object-fit: cover;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
 .navBtn1:hover{
     color: #fff;
     background-color: green; 
