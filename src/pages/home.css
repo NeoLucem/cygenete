@@ -32,6 +32,8 @@ h1{
 
 }
 
+
+
 @media only screen and (max-width: 480px) {
     /* CSS styles here */
     .img{
@@ -131,4 +133,12 @@ h1{
         height: 16vw;
         object-fit: cover;
     }
+  }
+
+  /*********** SIGN UP BANNER**********/
+  .sign-up-banner{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('../assets/pexel1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }

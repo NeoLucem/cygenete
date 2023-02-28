@@ -257,8 +257,8 @@ function Home() {
         </div>
 
         {/* Login et sign up section */}
-        <div className="container-fluid login-signup_section" style={{marginTop: '8rem'}}>
-          <div className="container">
+        <div className="container-fluid login-signup_section sign-up-banner" style={{marginTop: '8rem'}}>
+          <div className="container ">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -275,9 +275,10 @@ function Home() {
             style={{padding: '3rem'}}
           >
             <SwiperSlide>
-              <div className="container">
-                <h1>La surprise c'est notre quotidien</h1>
-                <span className='span-style'>Si, seulement 10% des ventes du jour<br/>
+            <div className="container">
+                <h4>La surprise c'est notre quotidien<br/>
+                  Cygenete c'est vous, et vous c'est nous<br/></h4>
+                <span className='span-style'>
                   Rejoigner nous
                 </span>
               </div>
@@ -285,9 +286,10 @@ function Home() {
 
             
             <SwiperSlide>
-              <div className="container">
-                <h1>La surprise c'est notre quotidien</h1>
-                <span className='span-style'>Si, seulement 10% des ventes du jour<br/>
+            <div className="container">
+                <h4>La surprise c'est notre quotidien<br/>
+                  Cygenete c'est vous, et vous c'est nous<br/></h4>
+                <span className='span-style'>
                   Rejoigner nous
                 </span>
               </div>
@@ -295,8 +297,9 @@ function Home() {
 
             <SwiperSlide>
               <div className="container">
-                <h1>La surprise c'est notre quotidien</h1>
-                <span className='span-style'>Si, seulement 10% des ventes du jour<br/>
+                <h4>"La surprise c'est notre quotidien<br/>
+                  Cygenete c'est vous, et vous c'est nous"<br/></h4>
+                <span className='span-style'>
                   Rejoigner nous
                 </span>
               </div>
@@ -304,8 +307,8 @@ function Home() {
             </Swiper>
           </div>
           <div className="container btn-flex pb-5">
-            <Link  to='/cygenete/sign-in' className="btn btn-outline-light btn-lg d-inline-block"> S'inscrire</Link>
-            <Link  to='/cygenete/log-in' className="btn btn-outline-light btn-lg d-inline-block"> Se connecter</Link>
+            <Link  to='/cygenete/sign-in' className="btn btn-outline-light rounded-pill btn-lg d-inline-block"> S'inscrire</Link>
+            <Link  to='/cygenete/log-in' className="btn btn-light rounded-pill btn-lg d-inline-block"> Se connecter</Link>
           </div>
         </div>
       </main>
