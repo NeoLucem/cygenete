@@ -99,13 +99,15 @@ function Home() {
             <div className="row gy-5">
 
               <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
-                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
-                  <img src={iphone} class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
                     <p class="card-text">
-                      Lorem, ipsum dolor.
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
                     </p>
-                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                    <p><Link to='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</Link></p>
                   </div>
                 </div>
               </div>
@@ -279,6 +281,7 @@ function Home() {
             </div>
           </div>
 
+          <hr />
           <h1 className='text-center'  style={{marginTop: '8rem'}}>Souscrivez à notre Newsletter</h1>
           <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
 

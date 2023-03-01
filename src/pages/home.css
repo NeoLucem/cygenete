@@ -213,6 +213,15 @@ h1{
   transition: 0.8ms ease-in-out;
 }
 
+.card-nouveautes{
+  translate: 0,8s;
+}
+
+.card-nouveautes:hover{
+  box-shadow: 0 0 0.7rem rgba(9, 199, 25, 0.788);
+  padding: 2rem;
+}
+
 
   /*********** SIGN UP BANNER**********/
   .sign-up-banner{
