@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/cygenete/static/css/main.f006134d.css",
-    "main.js": "/cygenete/static/js/main.4011448a.js",
+    "main.css": "/cygenete/static/css/main.de7e324a.css",
+    "main.js": "/cygenete/static/js/main.ab979c38.js",
     "static/js/787.40e01b4e.chunk.js": "/cygenete/static/js/787.40e01b4e.chunk.js",
     "static/media/pexel1.jpg": "/cygenete/static/media/pexel1.d28931632fb121e1148e.jpg",
-    "static/media/iphone.jpg": "/cygenete/static/media/iphone.7a1c2e7321e42bfa940a.jpg",
+    "static/media/clothes1.jpg": "/cygenete/static/media/clothes1.ea33ab7903033d07dc89.jpg",
+    "static/media/clothes.jpg": "/cygenete/static/media/clothes.bdff38434b7deb29b651.jpg",
     "static/media/durex.jpg": "/cygenete/static/media/durex.7d749f92f9b4fdb7f62f.jpg",
+    "static/media/iphone1.jpg": "/cygenete/static/media/iphone1.cdb77e14114f17a85b94.jpg",
     "static/media/cygenetelogo0.png": "/cygenete/static/media/cygenetelogo0.333ea026e8a7f23ed3a3.png",
     "static/media/product.jpg": "/cygenete/static/media/product.23e0c42de217be952b52.jpg",
     "static/media/cynegete-title.jpeg": "/cygenete/static/media/cynegete-title.95e7eb3356c8a5d6a627.jpeg",
     "static/media/google.png": "/cygenete/static/media/google.e12914ad8afda3f6f2e8.png",
     "static/media/facebook.png": "/cygenete/static/media/facebook.01a470d813915c298403.png",
     "index.html": "/cygenete/index.html",
-    "main.f006134d.css.map": "/cygenete/static/css/main.f006134d.css.map",
-    "main.4011448a.js.map": "/cygenete/static/js/main.4011448a.js.map",
+    "main.de7e324a.css.map": "/cygenete/static/css/main.de7e324a.css.map",
+    "main.ab979c38.js.map": "/cygenete/static/js/main.ab979c38.js.map",
     "787.40e01b4e.chunk.js.map": "/cygenete/static/js/787.40e01b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f006134d.css",
-    "static/js/main.4011448a.js"
+    "static/css/main.de7e324a.css",
+    "static/js/main.ab979c38.js"
   ]
 }
