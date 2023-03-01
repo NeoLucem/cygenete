@@ -33,12 +33,12 @@ function Login() {
 
         <section className="container d-flex justify-content-center align-items-center" style={{height: '90vh'}}>
                 <div className="container text-center log-container">
-                    <h3 className='mb-5'>Connecter vous à Cynegete</h3>
+                    <h3 className='mb-5'>Connectez vous à Cynegete</h3>
 
                     <form action="" className='d-flex justify-content-center align-items-center flex-column'>
                         <input className='mb-2 input-field' type="email" name="email" id="email" placeholder='exemple@mail.com'/>
                         <input className='mb-2 input-field' type="password" name="password" id="password" placeholder='Mot de passe' />
-                        <div className="btn btn-success rounded-pill" style={{width: '15rem'}}>Submit</div>
+                        <div className="btn btn-success rounded-pill" style={{width: '15rem'}}>Continuer</div>
                     </form>
 
                     <div className="container w-50">

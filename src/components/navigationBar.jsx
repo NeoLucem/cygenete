@@ -23,7 +23,7 @@ function NavigationBar() {
   return (
         <>
             <div className="container-fluid d-flex barre-de-navigation">
-                <div className="container d-flex align-items-center">
+                <div className="container d-flex align-items-center" style={{padding: 0}}>
                     <Link to='/cygenete' className='text-decoration-none text-center'>
                     {/* <h1 className='logo-name mb-0'>CYNEGETE</h1> */}
                     <img className='title-logo' src={cygenetelogo} alt="title" style={{width: '260px', height: '60px', objectFit: 'cover'}} srcset="" />
@@ -33,7 +33,7 @@ function NavigationBar() {
                         <img src={logo} alt='logo' style={{width:'64px', height: '64px'}}/>
                     </Link> */}
                 </div>
-                <div className="container d-flex align-items-center justify-content-center second-barre-de-navigation">
+                <div className="container d-flex align-items-center justify-content-center second-barre-de-navigation" style={{padding: 0}}>
                     <input type='text' className='research-input' placeholder='Recherchez votre article ' onClick={()=>{setSearch(searchInput)}}/>
                     <div className="container navBtn research-btn ms-2">
                     <a href="http://">Rechercher</a>

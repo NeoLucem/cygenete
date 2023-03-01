@@ -19,7 +19,7 @@ import Header from '../components/header';
 // import IframeResizer from 'iframe-resizer-react';
 import pic from '../assets/product.jpg';
 import durex from '../assets/durex.jpg';
-import iphone from '../assets/iphone.jpg';
+import iphone from '../assets/iphone1.jpg';
 
 
 function Home() {
@@ -90,171 +90,207 @@ function Home() {
       {/* main */}
       <main className='main'>
 
-        {/* Titre nouveautes du jour */}
-        <div className="container text-center" style={{marginBottom: '8rem'}}>
-          <h1 style={{paddingTop: '8rem'}}>NOUVEAUTES DU JOUR</h1>
-          <span className='span-style'>Les ventes qui ouvrent aujourd'hui</span>
-        </div>
+        <section className="section-1">
+          <h1 className='text-center mt-5'>Nouveautés</h1>
+          <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
 
-        {/* First container */}
-        <div class="container text-center" style={{padding: 0}}>
-          <div class="row g-5">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={durex} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
+          <div className="container">
+
+            <div className="row gy-5">
+
+              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
                     <p class="card-text">
-                      Durex Air Ultra Thin Condoms - 10s
+                      Lorem, ipsum dolor.
                     </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
                   </div>
                 </div>
               </div>
             </div>
-            
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={iphone} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
-                    <p class="card-text">
-                      Coque liberty wiltshire porcelaine pour iPhone 14,13, 12, 11, X, XS, X max,XR, SE, 8, 7, 7+
-                    </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/85mEWbb" class="btn btn-success">Acheter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={pic} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
-                    <p class="card-text">
-                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
-                    </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={pic} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
-                    <p class="card-text">
-                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
-                    </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
-        </div>
 
-        {/* Titre numero deux __________ */}
-        <div className="container text-center" style={{marginBottom: '8rem'}}>
-          <h1 style={{marginTop: '8rem'}}>PLUS BELLES MARQUES</h1>
-          <span className='span-style'>Les ventes qui ouvrent aujourd'hui</span>
-        </div>
+          <div className="container mt-4">
+            <div className="row gy-3">
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur.
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg-1" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur. 
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        {/* Second container */}
-        <div class="container text-center" style={{padding: 0}}>
+          <h1 className='text-center mt-5'>Produits populaires</h1>
+          <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
+
+          <div className="container mt-5">
+            <div className="row gy-5">
+              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      Lorem, ipsum dolor.
+                    </p>
+                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <h1 className='text-center mt-5'>Nos derniers articles</h1>
+          <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
+
+          <div className="container mt-5">
+            <div className="row gy-5">
+              <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
+                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <h1 className='text-center'  style={{marginTop: '8rem'}}>Souscrivez à notre Newsletter</h1>
+          <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
+
+          <div className="container  d-flex justify-content-center">
+            <form action="">
+              <input type="email" name="email" id="email" className='email-newsletter  p-2 research-input' placeholder='exemple@mail.com'/>
+              <span className="btn btn-success rounded-pill ms-4 p-2 fw-bold">Continuer</span>
+            </form>
+          </div>
+
+        </section>
         
-          <div class="row g-5">
-            {/* <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: 'auto'}}>
-                  <IframeResizer
-                    log
-                    src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=FR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=arteindaffili-21&language=fr_FR&marketplace=amazon&region=FR&placement=B075L6TBZ5&asins=B075L6TBZ5&linkId=d713fd441f142a6cefc2ccd0fba28e08&show_border=true&link_opens_in_new_window=true"
-                    style={{ width: '100%', height: '240px'}}
-                    id='iframe'
-                  />
-                </div>
-              </div>
-            </div> */}
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={pic} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
-                    <p class="card-text">
-                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
-                    </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={pic} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
-                    <p class="card-text">
-                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
-                    </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={pic} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
-                    <p class="card-text">
-                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
-                    </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-                       
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div className="container card-container">
-                <div class="card" style={{width: '430px'}}>
-                  <img src={pic} class=" img-card" alt="description"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Marque : Lemef</h5>
-                    <p class="card-text">
-                    Lemef Soutiens-Gorge de sans Couture Sport Yoga sans Armature avec Coussinets Amovibles pour Femmes
-                    </p>
-                    <p>25$</p>
-                    <a href="https://amzn.eu/d/dZPXsEt" class="btn btn-success">Acheter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-            
-          </div>
-        </div>
 
         {/* Login et sign up section */}
         <div className="container-fluid login-signup_section sign-up-banner" style={{marginTop: '8rem'}}>
@@ -275,31 +311,25 @@ function Home() {
             style={{padding: '3rem'}}
           >
             <SwiperSlide>
-            <div className="container">
-                <h4>La surprise c'est notre quotidien<br/>
-                  Cygenete c'est vous, et vous c'est nous<br/></h4>
-                <span className='span-style'>
-                  Rejoigner nous
+              <div className="container">
+                <span className='fw-bold fs-3'>
+                  "La surprise c'est notre quotidien"
                 </span>
               </div>
             </SwiperSlide>
 
             
             <SwiperSlide>
-            <div className="container">
-                <h4>La surprise c'est notre quotidien<br/>
-                  Cygenete c'est vous, et vous c'est nous<br/></h4>
-                <span className='span-style'>
-                  Rejoigner nous
+              <div className="container">
+                <span className='fw-bold fs-3'>
+                  "Cygenete c'est vous, et vous c'est nous"
                 </span>
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="container">
-                <h4>"La surprise c'est notre quotidien<br/>
-                  Cygenete c'est vous, et vous c'est nous"<br/></h4>
-                <span className='span-style'>
+              <span className='fw-bold fs-3'>
                   Rejoigner nous
                 </span>
               </div>
@@ -311,7 +341,11 @@ function Home() {
             <Link  to='/cygenete/log-in' className="btn btn-light rounded-pill btn-lg d-inline-block"> Se connecter</Link>
           </div>
         </div>
+
       </main>
+      <footer>
+        
+      </footer>
     </>
   )
 }
