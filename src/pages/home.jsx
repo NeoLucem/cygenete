@@ -96,9 +96,9 @@ function Home() {
 
           <div className="container">
 
-            <div className="row gy-5">
+            <div className="row gy-5 justify-content-center">
 
-              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
+              <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
                 <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
                   <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
@@ -107,70 +107,81 @@ function Home() {
                         PUMA Chaussettes de Sport (Lot de 6) Homme
                       </span>
                     </p>
-                    <p><Link to='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</Link></p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
-                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
-                  <img src={iphone} class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+              <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
                     <p class="card-text">
-                      Lorem, ipsum dolor.
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
                     </p>
-                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
-                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
-                  <img src={iphone} class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+              <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
                     <p class="card-text">
-                      Lorem, ipsum dolor.
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
                     </p>
-                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
-                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
-                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+              <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
                     <p class="card-text">
-                      Lorem, ipsum dolor.
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
                     </p>
-                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
-                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
-                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+              <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
                     <p class="card-text">
-                      Lorem, ipsum dolor.
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
                     </p>
-                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-2 col-lg-3 col-xl-2">
-                <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
-                  <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
+              <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
                     <p class="card-text">
-                      Lorem, ipsum dolor.
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
                     </p>
-                    <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
 
@@ -204,7 +215,106 @@ function Home() {
 
           <div className="container mt-5">
             <div className="row gy-5">
-              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+
+            <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
+                    </p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
+                  </div>
+                </div>
+              </div>
+
+            <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
+                    </p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
+                  </div>
+                </div>
+              </div>
+
+            <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
+                    </p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
+                  </div>
+                </div>
+              </div>
+
+            <div className="card-container-small_screen card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
+                    </p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
+                  </div>
+                </div>
+              </div>
+
+            <div className="card-container-small_screen card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
+                    </p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
+                  </div>
+                </div>
+              </div>
+
+            <div className="card-container-small_screen card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
+                    </p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
+                  </div>
+                </div>
+              </div>
+
+            {/* <div className="card-container-style col-md-6 col-sm-6 col-lg-3 col-xl-2 col-xm-6">
+                <div class="card card-nouveautes" style={{backgroundColor: '', border: 'none', borderRadius: 'none', cursor: 'pointer'}}>
+                  <img src='https://m.media-amazon.com/images/I/41o-Z4nZA+L._AC_.jpg' class="card-img-top" alt="..." style={{objectFit: 'cover'}}/>
+                  <div class="card-body" style={{paddingLeft: '0px'}}>
+                    <p class="card-text">
+                      <span className=" fw-bold d-inline-block" style={{fontSize: '16px', lineHeight: '16px'}}>
+                        PUMA Chaussettes de Sport (Lot de 6) Homme
+                      </span>
+                    </p>
+                    <p><a href='https://amzn.to/3Zuo8gw' className="fw-blod fs-5 card-text text-decoration-none text-bg-success text-light">12.99 €</a></p>
+                  </div>
+                </div>
+              </div> */}
+
+              {/* <div className="col-sm-8 .card-container-style col-lg-3 col-xl-3 col-md-6">
                 <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
                   <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
@@ -216,7 +326,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+              <div className="col-sm-8 .card-container-style col-lg-3 col-xl-3 col-md-6">
                 <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
                   <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
@@ -228,7 +338,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+              <div className="col-sm-8 .card-container-style col-lg-3 col-xl-3 col-md-6 col-xm-6">
                 <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
                   <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
@@ -240,7 +350,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="col-sm-8 col-lg-3 col-xl-3 col-md-6">
+              <div className="col-sm-8 .card-container-style col-lg-3 col-xl-3 col-md-6 col-xm-6">
                 <div class="card" style={{backgroundColor: '', border: 'none', borderRadius: 'none'}}>
                   <img src={iphone} class="card-img-top" alt="..."  style={{objectFit: 'cover'}}/>
                   <div class="card-body" style={{paddingLeft: '0px'}}>
@@ -250,7 +360,7 @@ function Home() {
                     <p><span className="fw-blod fs-5 card-tex">22.43$</span></p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
@@ -281,13 +391,12 @@ function Home() {
             </div>
           </div>
 
-          <hr />
           <h1 className='text-center'  style={{marginTop: '8rem'}}>Souscrivez à notre Newsletter</h1>
           <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
 
           <div className="container  d-flex justify-content-center">
             <form action="">
-              <input type="email" name="email" id="email" className='email-newsletter  p-2 research-input' placeholder='exemple@mail.com'/>
+              <input type="email" name="email" id="email" className='email-newsletter  p-2 ' placeholder='exemple@mail.com'/>
               <span className="btn btn-success rounded-pill ms-4 p-2 fw-bold">Continuer</span>
             </form>
           </div>

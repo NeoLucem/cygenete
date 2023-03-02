@@ -44,14 +44,14 @@ function NavigationBar() {
                 </div>
             </div>
 
-            <div className="container-fluid d-flex justify-content-center mt-5">
+            {/* <div className="container-fluid d-flex justify-content-center mt-5">
                 <li className='' style={{listStyle: 'none'}}><Link to='/cygenete' className='isInActive' id='navs' >ACCEUIL</Link></li>
                 <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/e-boutique' className='isInActive' id='navs' >E-BOUTIQUE</Link></li>
                 <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/mode' className='isInActive' id='navs' >MODE</Link></li>
                 <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/cuisine' className='isInActive' id='navs' >CUISINE</Link></li>
                 <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/electronique' className='isInActive' id='navs' >ELECTRONIQUE</Link></li>
                 <li className='ms-5' style={{listStyle: 'none'}}><Link to='/cygenete/maison' className='isInActive' id='navs' >MAISON</Link></li>
-            </div>
+            </div> */}
             
 
 

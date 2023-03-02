@@ -117,14 +117,8 @@ h1{
     color: #fff;
   }
 
-  .amazon .amzn-ad-container {
-    border-top: 2px solid #f90;
-    width: auto;
-}
 
-#myIframe{
-    width: 100%;
-}
+
 
   @media screen and (min-width: 992px) {
     
@@ -134,7 +128,14 @@ h1{
         object-fit: cover;
     }
   }
-
+/*********** NEWSLETTER SECTION*******/
+.email-newsletter{
+  padding: 10px 23px;
+  outline: none;
+  border-radius: 50px;
+  outline: none;
+  border: solid black 1.5px;
+}
 /*********** ADS SECTION ONE**********/
 
 .card-ads-bg{
@@ -220,6 +221,24 @@ h1{
 .card-nouveautes:hover{
   box-shadow: 0 0 0.7rem rgba(9, 199, 25, 0.788);
   padding: 2rem;
+}
+
+@media screen  and (max-width: 480px){
+  .card-container-style{
+    width: min-content;
+  }
+
+  .card-container-small_screen{
+    display: none;
+  }
+
+  .email-newsletter{
+    padding: 10px 23px;
+    outline: none;
+    border-radius: 50px;
+    outline: none;
+    border: solid black 1.5px;
+}
 }
 
 
