@@ -33,6 +33,25 @@ h1{
 }
 
 
+/****************** NAVIAGTION ******************/
+/* .mini-nav-mobile{}
+
+.mini-nav-laptop{} */
+
+@media screen and (max-width: 480px) {
+  .mini-nav-laptop{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mini-nav-mobile{
+    display: none;
+  }
+}
+
+/****************** NAVIAGTION ******************/
+
 
 @media only screen and (max-width: 480px) {
     /* CSS styles here */

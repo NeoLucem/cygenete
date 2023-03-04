@@ -81,7 +81,6 @@ function Home() {
 
 
 
-
   
   return (
     <>
@@ -89,8 +88,67 @@ function Home() {
       
       {/* main */}
       <main className='main'>
-
+        
         <section className="section-1">
+
+          <div className="container mt-5 mini-nav-laptop">
+            <ul className='d-flex justify-content-between myslider' style={{paddingLeft: 0}}>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill active'>Acceuil</Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>E-boutiques</Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Mode</Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Cuisine</Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Electronique</Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Maison</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="container mt-5 mini-nav-mobile">
+            <ul className='d-flex justify-content-between myslider' style={{paddingLeft: 0}}>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill active'>
+                  <i className="fa fa-bag"></i>
+                </Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                  <i className="fa fa-bag"></i>
+                </Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                  <i className="fa fa-bag"></i>
+                </Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                  <i className="fa fa-bag"></i>
+                </Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                  <i className="fa fa-bag"></i>
+                </Link>
+              </li>
+              <li style={{listStyle: 'none'}}>
+                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                  <i className="fa fa-bag"></i>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           <h1 className='text-center mt-5'>Nouveautés</h1>
           <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
 
