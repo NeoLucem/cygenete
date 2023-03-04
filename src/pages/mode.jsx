@@ -49,15 +49,6 @@ function Mode() {
           </div>
         </div>
 
-        <div className="container-fluid d-flex justify-content-center mt-5">
-          <li className='' style={{listStyle: 'none'}}><Link className='navs'>ACCEUIL</Link></li>
-          <li className='ms-5' style={{listStyle: 'none'}}><Link className='navs'>E-BOUTIQUE</Link></li>
-          <li className='ms-5' style={{listStyle: 'none'}}><Link className='navs'>MODE</Link></li>
-          <li className='ms-5' style={{listStyle: 'none'}}><Link className='navs'>CUISINE</Link></li>
-          <li className='ms-5' style={{listStyle: 'none'}}><Link className='navs'>ELECTRONIQUE</Link></li>
-          <li className='ms-5' style={{listStyle: 'none'}}><Link className='navs'>MAISON</Link></li>
-        </div>
-
         <div className="container">
         <div className=''>
             <Swiper
@@ -124,91 +115,86 @@ function Mode() {
         </div>
         </div>
       </section>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <div className="con">ffhbfhb</div>
+      
+      <section className="section-2">
+
+          <div className="container mt-4">
+            
+          <h1 className='text-center mt-5'>Nouveautés</h1>
+          <h5 className="text-center mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
+
+            <div className="row gy-3">
+
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur.
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg-1" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur. 
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg-1" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur. 
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg-1" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur. 
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg-1" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur. 
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="card card-ads-bg-1" style={{height: '42vh'}}>
+                  <div class="card-body" style={{border: 'none', borderRadius: 'none'}}>
+                    <p class="card-text-ads-1 fs-3 fw-bold">
+                     Lorem ipsum dolor sit amet consectetur. 
+                    </p><br />
+                    <span className="text-ads-link"><a href="www.google.com">Acheter</a></span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </section>
+      
     </>
   )
 }

@@ -147,6 +147,7 @@ h1{
         object-fit: cover;
     }
   }
+
 /*********** NEWSLETTER SECTION*******/
 .email-newsletter{
   padding: 10px 23px;
@@ -155,6 +156,7 @@ h1{
   outline: none;
   border: solid black 1.5px;
 }
+
 /*********** ADS SECTION ONE**********/
 
 .card-ads-bg{
@@ -238,8 +240,8 @@ h1{
 }
 
 .card-nouveautes:hover{
-  box-shadow: 0 0 0.7rem rgba(9, 199, 25, 0.788);
-  padding: 2rem;
+  box-shadow: 0 0.1em 0.7rem 0 rgba(9, 199, 25, 0.788);
+  /* padding: 2rem; */
 }
 
 @media screen  and (max-width: 480px){

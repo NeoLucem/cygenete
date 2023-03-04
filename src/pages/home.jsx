@@ -94,22 +94,22 @@ function Home() {
           <div className="container mt-5 mini-nav-laptop">
             <ul className='d-flex justify-content-between myslider' style={{paddingLeft: 0}}>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill active'>Acceuil</Link>
+                <Link to='/cygenete' className='text-decoration-none btn btn-outline-success rounded-pill active'>Acceuil</Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>E-boutiques</Link>
+                <Link to='/cygenete/e-boutique' className='text-decoration-none btn btn-outline-success rounded-pill'>E-boutiques</Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Mode</Link>
+                <Link to='/cygenete/mode' className='text-decoration-none btn btn-outline-success rounded-pill'>Mode</Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Cuisine</Link>
+                <Link to='/cygenete/cuisine' className='text-decoration-none btn btn-outline-success rounded-pill'>Cuisine</Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Electronique</Link>
+                <Link to='/cygenete/electronique' className='text-decoration-none btn btn-outline-success rounded-pill'>Electronique</Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>Maison</Link>
+                <Link to='/cygenete/maison' className='text-decoration-none btn btn-outline-success rounded-pill'>Maison</Link>
               </li>
             </ul>
           </div>
@@ -117,32 +117,32 @@ function Home() {
           <div className="container mt-5 mini-nav-mobile">
             <ul className='d-flex justify-content-between myslider' style={{paddingLeft: 0}}>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill active'>
+                <Link to='/cygenete' className='text-decoration-none btn btn-outline-success rounded-pill active'>
                   <i className="fa fa-bag"></i>
                 </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                <Link to='/cygenete/e-boutique' className='text-decoration-none btn btn-outline-success rounded-pill'>
                   <i className="fa fa-bag"></i>
                 </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                <Link to='/cygenete/mode' className='text-decoration-none btn btn-outline-success rounded-pill'>
                   <i className="fa fa-bag"></i>
                 </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                <Link to='/cygenete/cuisine' className='text-decoration-none btn btn-outline-success rounded-pill'>
                   <i className="fa fa-bag"></i>
                 </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                <Link to='/cygenete/electronique' className='text-decoration-none btn btn-outline-success rounded-pill'>
                   <i className="fa fa-bag"></i>
                 </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                <Link to='/cygenete/maison' className='text-decoration-none btn btn-outline-success rounded-pill'>
                   <i className="fa fa-bag"></i>
                 </Link>
               </li>
