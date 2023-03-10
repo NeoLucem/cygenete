@@ -12,6 +12,7 @@ import Electronique from './pages/electronique';
 import Maison from './pages/maison';
 import Signin from './pages/signin';
 import Login from './pages/login';
+import Eboutiquetest from './pages/eboutiquetest';
 //import NavigationBar from './components/navigationBar';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='cygenete/cart' element={<Cart/>}/>
         <Route path='cygenete/header' element={<Header/>}/>
         <Route path='cygenete/e-boutique' element={<Eboutique/>}/>
+        <Route path='cygenete/e-boutique-test' element={<Eboutiquetest/>}/>
         <Route path='cygenete/mode' element={<Mode/>}/>
         <Route path='cygenete/cuisine' element={<Cuisine/>}/>
         <Route path='cygenete/electronique' element={<Electronique/>}/>
