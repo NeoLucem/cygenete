@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/cygenete/static/css/main.d9b50686.css",
-    "main.js": "/cygenete/static/js/main.6f826035.js",
+    "main.css": "/cygenete/static/css/main.0e6a1d37.css",
+    "main.js": "/cygenete/static/js/main.24238cfe.js",
     "static/js/787.40e01b4e.chunk.js": "/cygenete/static/js/787.40e01b4e.chunk.js",
     "static/media/pexel1.jpg": "/cygenete/static/media/pexel1.d28931632fb121e1148e.jpg",
     "static/media/clothes1.jpg": "/cygenete/static/media/clothes1.ea33ab7903033d07dc89.jpg",
     "static/media/clothes.jpg": "/cygenete/static/media/clothes.bdff38434b7deb29b651.jpg",
+    "static/media/image4.jpg": "/cygenete/static/media/image4.0aca02b736a02cd5a3b2.jpg",
     "static/media/durex.jpg": "/cygenete/static/media/durex.7d749f92f9b4fdb7f62f.jpg",
     "static/media/iphone1.jpg": "/cygenete/static/media/iphone1.cdb77e14114f17a85b94.jpg",
     "static/media/cygenetelogo0.png": "/cygenete/static/media/cygenetelogo0.333ea026e8a7f23ed3a3.png",
@@ -13,13 +14,14 @@
     "static/media/cynegete-title.jpeg": "/cygenete/static/media/cynegete-title.95e7eb3356c8a5d6a627.jpeg",
     "static/media/google.png": "/cygenete/static/media/google.e12914ad8afda3f6f2e8.png",
     "static/media/facebook.png": "/cygenete/static/media/facebook.01a470d813915c298403.png",
+    "static/media/icons8-close.svg": "/cygenete/static/media/icons8-close.7fbaa9557992c6d8609e.svg",
     "index.html": "/cygenete/index.html",
-    "main.d9b50686.css.map": "/cygenete/static/css/main.d9b50686.css.map",
-    "main.6f826035.js.map": "/cygenete/static/js/main.6f826035.js.map",
+    "main.0e6a1d37.css.map": "/cygenete/static/css/main.0e6a1d37.css.map",
+    "main.24238cfe.js.map": "/cygenete/static/js/main.24238cfe.js.map",
     "787.40e01b4e.chunk.js.map": "/cygenete/static/js/787.40e01b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9b50686.css",
-    "static/js/main.6f826035.js"
+    "static/css/main.0e6a1d37.css",
+    "static/js/main.24238cfe.js"
   ]
 }
