@@ -12,9 +12,6 @@ function Eboutiquetest() {
         const navigationLeft = document.querySelector('.navigation-left');
         const navToogle = document.querySelector('.mobile-nav-toogle');
 
-        const navigationRight = document.querySelector('.navigation-right');
-        const navToogle2 = document.querySelector('.mobile-nav-toogle-right');
-
         navToogle.addEventListener('click', ()=>{
             const visibility = navigationLeft.getAttribute('data-visible');
             // console.log(visibility);
@@ -26,21 +23,6 @@ function Eboutiquetest() {
                 navigationLeft.setAttribute("data-visible", "false")
                 navToogle.setAttribute("aria-expanded", "false");
                 console.log(visibility);
-            }
-        })
-
-        navToogle2.addEventListener('click', ()=>{
-            const visibility2 = navigationRight.getAttribute("data-visible");
-            console.log(visibility2);
-
-            if(visibility2 === "false"){
-                navigationLeft.setAttribute("data-visible", true);
-                navToogle.setAttribute("aria-expanded", true);
-                console.log(visibility2);
-            }else if(visibility2 === "true"){
-                navigationLeft.setAttribute("data-visible", "false")
-                navToogle.setAttribute("aria-expanded", "false");
-                console.log(visibility2);
             }
         })
     })
