@@ -106,7 +106,7 @@ function Home() {
                 <Link to='/cygenete/cuisine' className='text-decoration-none btn btn-outline-success rounded-pill'>Cuisine</Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='/cygenete/electronique' className='text-decoration-none btn btn-outline-success rounded-pill'>Electronique</Link>
+                <Link to='/cygenete/e-boutique-test' className='text-decoration-none btn btn-outline-success rounded-pill'>Electronique</Link>
               </li>
               <li style={{listStyle: 'none'}}>
                 <Link to='/cygenete/maison' className='text-decoration-none btn btn-outline-success rounded-pill'>Maison</Link>
@@ -137,7 +137,7 @@ function Home() {
                 </Link>
               </li>
               <li style={{listStyle: 'none'}}>
-                <Link to='/cygenete/electronique' className='text-decoration-none btn btn-outline-success rounded-pill'>
+                <Link to='/cygenete/e-boutique-test' className='text-decoration-none btn btn-outline-success rounded-pill'>
                   <i className="fa fa-bag"></i>
                 </Link>
               </li>
