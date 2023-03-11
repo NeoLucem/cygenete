@@ -9,7 +9,7 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
 }
 
 /*** HEADER ****/
@@ -124,4 +124,39 @@ ul{
         }
 
     }
+
+/*** SECTION 1 ***/
+.search-bar{
+    border-radius: 10px;
+    border: 1px green solid;
+    background-color: transparent;
+    padding-inline: 2em;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.line{
+    display: inline-block;
+
+    color: white;
+    width: 2rem;
+    justify-self: center;
+}
+
+.primary-navigation{
+    justify-content: space-between;
+    gap: 0.3em;
+    list-style: none;
+    background-color: green;
+    /* padding-inline-start: 2em; */
+    padding: 0.4em 2em;
+    border-radius: 13px;
+}
+
+.primary-navigation li a{
+    text-decoration: none;
+    color: #fff;
+}
 
